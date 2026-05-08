@@ -67,8 +67,7 @@ My goal is to build deep, practical expertise in cybersecurity and network engin
 ## Projects
  
 ###  [CCNA Mega Lab — Enterprise Network Simulation](./projects/ccna-mega-lab/)
-> A 40-step, 5-phase enterprise network lab built in Cisco Packet Tracer covering every major CCNA topic in real-world order.
- 
+
 **Topology:** 2 routers, 2 switches, 8 PCs across dual LANs connected via OSPF point-to-point link
  
 **Skills demonstrated:** VLANs & trunking · OSPFv2 · Router-on-a-stick · DHCP · NAT/PAT · ACLs · SSH · STP · Port security · DHCP snooping · DAI · NTP · SNMP · Syslog
