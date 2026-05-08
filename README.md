@@ -1,67 +1,123 @@
-# Hello, I'm Bryant
+# Hi, I'm Bryant 👋
 <a href="https://linkedin.com/in/bryantbardeau/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
-
+ 
+I'm a recent graduate with a strong interest in technology and a focus on solving complex problems. My journey has led me to cybersecurity and enterprise networking — I'm currently building hands-on skills through structured labs, certifications, and real-world simulations.
+ 
+---
+ 
 ## Objective
-
-My journey in technology has led me to develop a strong passion for cybersecurity, and I am now focused on mastering industry-standard enterprise systems and technical tools. To achieve this, I have created a structured roadmap aimed at strengthening my technical foundation while developing practical, hands-on skills. Through a combination of projects and certifications, I am building the expertise necessary to deliver real-world impact in cybersecurity and IT operations.
-
-## Skills
-
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| Network Security (Firewalls, IDS/IPS, VPN)          | Network Infrastructure Design Lab |
-| Network Traffic Monitoring w/ Wireshark  | Packet Anaylsis Lab |
-| Security Automation w/ Python         | Automation Logic Lab |
-| IP Addressing & Subnetting     | Cisco Packet Tracer Lab |
-| Routing, Switching, & Traffic Flow Control                 | Multi-VLAN Network Lab |
-| Network Troubleshooting | DNS, ARP, & TCP handshake Lab |
-
-## Tools
-
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-tcpdump-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
-</div>
-
-### Operating Systems Tools
-<div>
-    <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
-    <img src="https://img.shields.io/badge/-PowerShell-5391FE?&style=for-the-badge&logo=PowerShell&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Ansible-EE0000?&style=for-the-badge&logo=Ansible&logoColor=white" />
-</div>
-
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-</div>
-
+ 
+My goal is to build deep, practical expertise in cybersecurity and network engineering. I've created a structured roadmap combining certifications and project-based learning — each lab here is designed to mirror real enterprise environments, not just theory. I'm focused on CCNA-level networking, security operations, and automation as my technical foundation.
+ 
+---
+ 
 ## Certifications
+ 
+**Earned:**
+ 
 <div>
-  
-Earned: 
-  
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Google_Cybersecurity_Professional-4285F4?&style=for-the-badge&logo=Google&logoColor=white" />
-
-
-  
-In progress:
-
+</div>
+**In progress:**
+ 
+<div>
 <img src="https://img.shields.io/badge/-Cisco_CCNA-1BA0E2?&style=for-the-badge&logo=Cisco&logoColor=white" />
 <img src="https://img.shields.io/badge/-Red_Hat_RHCSA-EE0000?&style=for-the-badge&logo=RedHat&logoColor=white" />
-
 </div>
-
-
+---
+ 
+## Skills
+ 
+| Skill | Associated Project |
+|---|---|
+| Network Security (Firewalls, IDS/IPS, VPN) | [Network Infrastructure Design Lab](./projects/network-infrastructure-lab/) |
+| Network Traffic Monitoring w/ Wireshark | [Packet Analysis Lab](./projects/packet-analysis-lab/) |
+| Security Automation w/ Python | [Automation Logic Lab](./projects/automation-logic-lab/) |
+| IP Addressing & Subnetting | [CCNA Mega Lab](./projects/ccna-mega-lab/) |
+| Routing, Switching & Traffic Flow Control | [CCNA Mega Lab](./projects/ccna-mega-lab/) |
+| VLANs, Trunking, STP & Inter-VLAN Routing | [CCNA Mega Lab](./projects/ccna-mega-lab/) |
+| OSPFv2, NAT/PAT & ACLs | [CCNA Mega Lab](./projects/ccna-mega-lab/) |
+| Layer 2 Security (Port Security, DHCP Snooping, DAI) | [CCNA Mega Lab](./projects/ccna-mega-lab/) |
+| Network Troubleshooting | [DNS, ARP & TCP Handshake Lab](./projects/dns-arp-tcp-lab/) |
+ 
+---
+ 
+## Tools
+ 
+### Network
+<div>
+<img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+<img src="https://img.shields.io/badge/-tcpdump-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
+<img src="https://img.shields.io/badge/-Cisco_Packet_Tracer-1BA0E2?&style=for-the-badge&logo=Cisco&logoColor=white" />
+</div>
+### Operating Systems & Automation
+<div>
+<img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
+<img src="https://img.shields.io/badge/-PowerShell-5391FE?&style=for-the-badge&logo=PowerShell&logoColor=white" />
+<img src="https://img.shields.io/badge/-Ansible-EE0000?&style=for-the-badge&logo=Ansible&logoColor=white" />
+</div>
+### SIEM
+<div>
+<img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
+<img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+</div>
+---
+ 
 ## Projects
-- Network Infrastructure Design Lab
-- Packet Anaylsis Lab
-- Automation Logic Lab
-- Cisco Packet Tracer Lab
-- Multi-VLAN Network Lab
-- DNS, ARP, & TCP handshake Lab
+ 
+###  [CCNA Mega Lab — Enterprise Network Simulation](./projects/ccna-mega-lab/)
+> A 40-step, 5-phase enterprise network lab built in Cisco Packet Tracer covering every major CCNA topic in real-world order.
+ 
+**Topology:** 2 routers, 2 switches, 8 PCs across dual LANs connected via OSPF point-to-point link
+ 
+**Skills demonstrated:** VLANs & trunking · OSPFv2 · Router-on-a-stick · DHCP · NAT/PAT · ACLs · SSH · STP · Port security · DHCP snooping · DAI · NTP · SNMP · Syslog
+ 
+| # | Mini Lab | Key Topics | Status |
+|---|---|---|---|
+| 01 | [Device Init & Basic Hardening](./projects/ccna-mega-lab/lab-01-device-init/) | Hostname, enable secret, banner, console security | ⬜ |
+| 02 | [VLAN & Access Port Config](./projects/ccna-mega-lab/lab-02-vlans/) | VLAN creation, access ports, show vlan brief | ⬜ |
+| 03 | [Trunking & Inter-Switch Connectivity](./projects/ccna-mega-lab/lab-03-trunking/) | 802.1Q, native VLAN, DTP disabled | ⬜ |
+| 04 | [Switch Management & STP](./projects/ccna-mega-lab/lab-04-stp/) | SVI, management IP, root bridge, PortFast, BPDU Guard | ⬜ |
+| 05 | [Port Security & Layer 2 Hardening](./projects/ccna-mega-lab/lab-05-security/) | Port security, sticky MAC, DHCP snooping, DAI | ⬜ |
+| 06 | [Router Interfaces & Router-on-a-Stick](./projects/ccna-mega-lab/lab-06-roas/) | Subinterfaces, dot1Q, inter-VLAN routing | ⬜ |
+| 07 | [DHCP Server on R1](./projects/ccna-mega-lab/lab-07-dhcp/) | DHCP pools, exclusions, default-router, DNS | ⬜ |
+| 08 | [OSPFv2 on R1 and R2](./projects/ccna-mega-lab/lab-08-ospf/) | Router ID, passive interfaces, default route advertisement | ⬜ |
+| 09 | [SSH & NTP on All Devices](./projects/ccna-mega-lab/lab-09-ssh-ntp/) | SSH v2, RSA keys, NTP stratum hierarchy | ⬜ |
+| 10 | [ACLs, NAT/PAT, Syslog & SNMP](./projects/ccna-mega-lab/lab-10-acl-nat/) | Standard/extended ACLs, PAT overload, syslog, SNMPv2c | ⬜ |
+ 
+---
+ 
+###  [Network Infrastructure Design Lab](./projects/network-infrastructure-lab/)
+Designed and simulated a secure enterprise network with firewall rules, IDS/IPS placement, and VPN tunnel configuration.
+ 
+**Skills:** Network security · Firewall policy · IDS/IPS · VPN
+ 
+---
+ 
+###  [Packet Analysis Lab](./projects/packet-analysis-lab/)
+Captured and analyzed live network traffic using Wireshark and tcpdump. Identified protocol behavior, anomalies, and attack patterns at the packet level.
+ 
+**Skills:** Wireshark · tcpdump · Protocol analysis · Traffic inspection
+ 
+---
+ 
+###  [Automation Logic Lab](./projects/automation-logic-lab/)
+Built Python and Ansible scripts to automate repetitive security and network tasks, reducing manual configuration time.
+ 
+**Skills:** Python · Ansible · Security automation · Scripting
+ 
+---
+ 
+###  [DNS, ARP & TCP Handshake Lab](./projects/dns-arp-tcp-lab/)
+Captured and dissected DNS queries, ARP resolution, and full TCP three-way handshakes to understand core protocol behavior and troubleshoot connectivity issues.
+ 
+**Skills:** Network troubleshooting · DNS · ARP · TCP/IP
+ 
+---
+ 
+## Connect
+ 
+I'm actively building toward roles in network engineering and cybersecurity. If you're working on something interesting or want to talk networking, feel free to connect.
+ 
+<a href="https://linkedin.com/in/bryantbardeau/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
