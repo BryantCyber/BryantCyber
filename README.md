@@ -1,13 +1,15 @@
 # Hi, I'm Bryant 👋
 <a href="https://linkedin.com/in/bryantbardeau/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
  
-I'm a recent graduate with a strong interest in technology and a focus on solving complex problems. My journey has led me to cybersecurity and enterprise networking — I'm currently building hands-on skills through structured labs, certifications, and real-world simulations.
- 
+## About Me
+
+I'm a recent graduate with a strong foundation in cybersecurity and enterprise networking, currently pursuing CCNA certification while building hands-on expertise through structured labs and real-world simulations. My work here reflects practical, lab-driven learning designed to mirror production enterprise environments.
+
 ---
  
 ## Objective
  
-My goal is to build deep, practical expertise in cybersecurity and network engineering. I've created a structured roadmap combining certifications and project-based learning — each lab here is designed to mirror real enterprise environments, not just theory. I'm focused on CCNA-level networking, security operations, and automation as my technical foundation.
+To specialize at the intersection of network engineering and cybersecurity, building resilient, secure, and scalable systems that support critical business operations. My current focus areas include routing and switching, secure network design, infrastructure support, and network automation
  
 ---
  
@@ -19,13 +21,14 @@ My goal is to build deep, practical expertise in cybersecurity and network engin
 <img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
 <img src="https://img.shields.io/badge/-Google_Cybersecurity_Professional-4285F4?&style=for-the-badge&logo=Google&logoColor=white" />
 </div>
+
 **In progress:**
  
 <div>
 <img src="https://img.shields.io/badge/-Cisco_CCNA-1BA0E2?&style=for-the-badge&logo=Cisco&logoColor=white" />
 <img src="https://img.shields.io/badge/-Red_Hat_RHCSA-EE0000?&style=for-the-badge&logo=RedHat&logoColor=white" />
 </div>
----
+
  
 ## Skills
  
@@ -51,18 +54,19 @@ My goal is to build deep, practical expertise in cybersecurity and network engin
 <img src="https://img.shields.io/badge/-tcpdump-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
 <img src="https://img.shields.io/badge/-Cisco_Packet_Tracer-1BA0E2?&style=for-the-badge&logo=Cisco&logoColor=white" />
 </div>
+
 ### Operating Systems & Automation
 <div>
 <img src="https://img.shields.io/badge/-Bash-4EAA25?&style=for-the-badge&logo=gnubash&logoColor=white" />
 <img src="https://img.shields.io/badge/-PowerShell-5391FE?&style=for-the-badge&logo=PowerShell&logoColor=white" />
 <img src="https://img.shields.io/badge/-Ansible-EE0000?&style=for-the-badge&logo=Ansible&logoColor=white" />
 </div>
+
 ### SIEM
 <div>
 <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
 <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
 </div>
----
  
 ## Projects
  
