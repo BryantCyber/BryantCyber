@@ -75,7 +75,7 @@ My goal is to build deep, practical expertise in cybersecurity and network engin
 | # | Mini Lab | Key Topics | Status |
 |---|---|---|---|
 | 01 | [Device Init & Basic Hardening](./projects/ccna-mega-lab/lab-01-device-init/) | Hostname, enable secret, banner, console security | ✅ |
-| 02 | [VLAN & Access Port Config](./projects/ccna-mega-lab/lab-02-vlans/) | VLAN creation, access ports, show vlan brief | ⬜ |
+| 02 | [VLAN & Access Port Config](./projects/ccna-mega-lab/lab-02-vlans/) | VLAN creation, access ports, show vlan brief | ✅ |
 | 03 | [Trunking & Inter-Switch Connectivity](./projects/ccna-mega-lab/lab-03-trunking/) | 802.1Q, native VLAN, DTP disabled | ⬜ |
 | 04 | [Switch Management & STP](./projects/ccna-mega-lab/lab-04-stp/) | SVI, management IP, root bridge, PortFast, BPDU Guard | ⬜ |
 | 05 | [Port Security & Layer 2 Hardening](./projects/ccna-mega-lab/lab-05-security/) | Port security, sticky MAC, DHCP snooping, DAI | ⬜ |
