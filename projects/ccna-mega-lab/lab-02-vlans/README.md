@@ -18,7 +18,7 @@ Create VLANs on both switches, assign PC-facing ports to the correct VLAN, and c
 
 SW1 connects to SW2 via a trunk link. SW1 connects to R1 and SW2 connects to R2 via trunk uplinks. R1 and R2 are connected via a point-to-point link. PC-facing ports are access ports.
 
-![Topology](./images/lab-topology.png)
+![Topology](./Images/lab-topology.png)
 
 ---
 
@@ -46,26 +46,6 @@ SW1 connects to SW2 via a trunk link. SW1 connects to R1 and SW2 connects to R2 
 | R2 | G0/0 | 192.168.16.14 | 255.255.255.248 | SW2 |
 | R2 | G0/1 | 192.168.16.18 | 255.255.255.252 | R1 |
 
-### Router Interface Verification
-
-**R1:**
-```
-R1#show ip interface brief
-Interface              IP-Address      OK? Method Status   Protocol
-GigabitEthernet0/0    192.168.16.6    YES manual up       up
-GigabitEthernet0/1    192.168.16.17   YES manual up       up
-Vlan1                  unassigned      YES unset  admin down down
-```
-
-**R2:**
-```
-R2#show ip interface brief
-Interface              IP-Address      OK? Method Status   Protocol
-GigabitEthernet0/0    192.168.16.14   YES manual up       up
-GigabitEthernet0/1    192.168.16.18   YES manual up       up
-Vlan1                  unassigned      YES unset  admin down down
-```
-
 ## VLAN Design
 
 | VLAN | Name | Purpose | Ports Assigned |
@@ -86,7 +66,7 @@ Vlan1                  unassigned      YES unset  admin down down
 
 ---
 
-### Step 9 - VLAN Creation on SW1
+### Step 1 - VLAN Creation on SW1
 
 Enter global configuration mode and create all four VLANs with names.
 
@@ -110,13 +90,13 @@ exit
 show vlan brief
 ```
 
-All four VLANs should appear as active. All ports will still show under VLAN 1 at this point -- port assignments happen in Steps 11 and 12.
+All four VLANs should appear as active. All ports will still show under VLAN 1 at this point. Port assignments happen in Steps 3 and 4.
 
-![SW1 show vlan brief after VLAN creation](./images/sw1-sh-vl-br.png)
+![SW1 show vlan brief after VLAN creation](./Images/sw1-sh-vl-br.png)
 
 ---
 
-### Step 10 - VLAN Creation on SW2
+### Step 2 - VLAN Creation on SW2
 
 Repeat the exact same VLAN creation on SW2.
 
@@ -140,22 +120,15 @@ exit
 show vlan brief
 ```
 
-![SW2 show vlan brief after VLAN creation](./images/sw2-sh-vl-br.png)
+![SW2 show vlan brief after VLAN creation](./Images/sw2-sh-vl-br.png)
 
 **Why VLANs must be created manually on each switch:**
 
 VLANs do not automatically propagate between switches. Each switch maintains its own independent VLAN database. VTP (VLAN Trunking Protocol) can automate this propagation but manual creation is best practice because it gives full control and avoids accidental VLAN changes being pushed across the network.
 
-| Question | Answer |
-|---|---|
-| Do VLANs auto-propagate? | No, each switch needs manual configuration |
-| What protocol automates this? | VTP (VLAN Trunking Protocol) |
-| VTP modes | Server, Client, Transparent |
-| Why manual is better | Full control, no risk of accidental propagation |
-
 ---
 
-### Step 11 - Access Port Assignment SW1
+### Step 3 - Access Port Assignment SW1
 
 Assign PC-facing ports to their correct VLANs using the range command for efficiency.
 
@@ -191,11 +164,11 @@ show vlan brief
 
 VLAN 10 should now list Fa0/1 and Fa0/2. VLAN 20 should list Fa0/3 and Fa0/4.
 
-![SW1 show vlan brief after port assignment](./images/sw1-sh-vl-br.png)
+![SW1 show vlan brief after port assignment](./Images/sw1-sh-vl-br.png)
 
 ---
 
-### Step 12 - Access Port Assignment SW2
+### Step 4 - Access Port Assignment SW2
 
 Repeat the same port assignments on SW2.
 
@@ -216,7 +189,7 @@ exit
 show vlan brief
 ```
 
-![SW2 show vlan brief after port assignment](./images/sw2-sh-vl-br.png)
+![SW2 show vlan brief after port assignment](./Images/sw2-sh-vl-br.png)
 
 **Why SW2 needs the same VLANs as SW1:**
 
@@ -226,7 +199,7 @@ When a trunk is configured between SW1 and SW2, frames tagged with VLAN 10 or VL
 
 ### Trunk Configuration - SW1 to R1 (Fa0/5)
 
-This uplink carries all VLAN traffic from SW1 up to R1. Router-on-a-stick subinterfaces will be configured on R1 in Lab 06 -- this trunk lays the groundwork now.
+This uplink carries all VLAN traffic from SW1 up to R1. Router-on-a-stick subinterfaces will be configured on R1 in Lab 06. This trunk lays the groundwork now.
 
 ```
 configure terminal
@@ -298,26 +271,7 @@ Run on SW1 to confirm both trunk ports are active:
 ```
 show interfaces trunk
 ```
-
-**Actual output from SW1:**
-
-```
-Port      Mode    Encapsulation  Status    Native vlan
-Fa0/5     on      802.1q         trunking  100
-Fa0/6     on      802.1q         trunking  100
-
-Port      Vlans allowed on trunk
-Fa0/5     1-1005
-Fa0/6     10,20,99-100
-
-Port      Vlans allowed and active in management domain
-Fa0/5     1,10,20,99,100
-Fa0/6     10,20,99,100
-
-Port      Vlans in spanning tree forwarding state and not pruned
-Fa0/5     1,10,20,99,100
-Fa0/6     10,20,99,100
-```
+![SW1 show interfaces trunk](./Images/sw1-sh-ints-tr.png)
 
 **Reading the output:**
 
@@ -330,28 +284,6 @@ Fa0/6     10,20,99,100
 | Vlans allowed on trunk | What is configured to be allowed |
 | Vlans allowed and active | Allowed VLANs that actually exist in the database |
 | Forwarding state | VLANs actively forwarding traffic after STP converges |
-
-![SW1 show interfaces trunk](./images/sw1-int-tr.png)
-
----
-
-### Show VLAN Brief - Final State
-
-```
-show vlan brief
-```
-
-Expected output on both switches:
-
-| VLAN | Name | Status | Ports |
-|---|---|---|---|
-| 1 | default | active | remaining ports |
-| 10 | SALES | active | Fa0/1, Fa0/2 |
-| 20 | HR | active | Fa0/3, Fa0/4 |
-| 99 | MANAGEMENT | active | none yet |
-| 100 | NATIVE | active | none yet |
-
-Note: Trunk ports Fa0/5 and Fa0/6 do not appear under any VLAN in show vlan brief because trunk ports carry multiple VLANs and are shown separately in show interfaces trunk.
 
 ---
 
@@ -369,7 +301,7 @@ PC1 pings PC2. Both are in VLAN 10 on SW1. Layer 2 forwarding works within the s
 PC1> ping 192.168.16.3
 ```
 
-![PC1 ping PC2 success](./images/pc1-pc2-ping.png)
+![PC1 ping PC2 success](./Images/pc1-pc2-ping.png)
 
 ---
 
@@ -381,7 +313,7 @@ PC1 pings PC5. Both are in VLAN 10 but on different switches. The trunk between 
 PC1> ping 192.168.16.2
 ```
 
-![PC1 ping PC5 success](./images/pc1-pc5-ping.png)
+![PC1 ping PC5 success](./Images/pc1-pc5-ping.png)
 
 ---
 
@@ -393,7 +325,7 @@ PC3 pings PC7. Both are in VLAN 20 on different switches. Confirms the trunk is 
 PC3> ping 192.168.16.10
 ```
 
-![PC3 ping PC7 success](./images/pc3-pc7-ping.png)
+![PC3 ping PC7 success](./Images/pc3-pc7-ping.png)
 
 ---
 
@@ -405,7 +337,7 @@ PC1 pings PC3. VLAN 10 to VLAN 20. No inter-VLAN routing configured yet. This co
 PC1> ping 192.168.16.10
 ```
 
-![PC1 ping PC3 fail](./images/pc1-pc3-ping.png)
+![PC1 ping PC3 fail](./Images/pc1-pc3-ping.png)
 
 ---
 
