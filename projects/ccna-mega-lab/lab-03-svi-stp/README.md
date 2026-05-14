@@ -103,7 +103,7 @@ exit
 ip default-gateway 192.168.16.14
 ```
 
-**Default gateway set to 192.168.16.14 -- R2's G0/0 interface, which is the directly connected router on SW2's subnet.**
+**Default gateway set to 192.168.16.14: R2's G0/0 interface, which is the directly connected router on SW2's subnet.**
 
 **Verify:**
 
@@ -142,11 +142,11 @@ Every switch has a Bridge ID made up of two parts: Bridge priority and MAC addre
 
 To guarantee SW1 becomes root we manually lower its priority to 4096, which is well below the default 32768 on SW2.
 
-**Valid priority values:** Must be in multiples of 4096 -- 0, 4096, 8192, 12288, 16384, 20480, 24576, 28672, 32768 (default).
+**Valid priority values:** Must be in multiples of 4096: 0, 4096, 8192, 12288, 16384, 20480, 24576, 28672, 32768 (default).
 
 ---
 
-### Step 2 - Make SW1 Root Bridge for VLAN 10 and VLAN 20
+### Step 1 - Make SW1 Root Bridge for VLAN 10 and VLAN 20
 
 ```
 configure terminal
@@ -174,7 +174,7 @@ This bridge is the root
 
 ---
 
-### Step 3 - PortFast on All Access Ports
+### Step 2 - PortFast on All Access Ports
 
 **On SW1:**
 
@@ -211,7 +211,7 @@ Only on access ports connected to end devices like PCs and printers. Never on po
 
 ---
 
-### Step 4 - BPDU Guard on All Access Ports
+### Step 3 - BPDU Guard on All Access Ports
 
 **On SW1:**
 
@@ -304,10 +304,10 @@ Manually shut it down and bring it back up with shutdown followed by no shutdown
 
 - SVIs are administratively down by default and require no shutdown to become active
 - An SVI only reaches up/up if at least one physical port in that VLAN is active
-- Switches need a default gateway to communicate outside their local subnet -- routers do not
+- Switches need a default gateway to communicate outside their local subnet while routers do not
 - The default gateway on a switch should always point to the directly connected router interface
-- STP priority must be set in multiples of 4096 -- any other value is rejected by IOS
+- STP priority must be set in multiples of 4096, any other value is rejected by IOS
 - PortFast eliminates the 30 second STP convergence delay on access ports
 - BPDU Guard is a critical security control that prevents rogue switch attacks on access ports
-- err-disabled ports do not recover automatically -- manual intervention is always required
+- err-disabled ports do not recover automatically. Manual intervention is always required
 - Always verify STP root bridge status with show spanning-tree and confirm the This bridge is the root line
