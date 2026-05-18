@@ -112,7 +112,7 @@ exit
 | `no shutdown` | Router interfaces are administratively down by default, this brings them up |
 
 **Why are router interfaces down by default?**
-Unlike switch ports which come up automatically when a cable is connected, router interfaces are administratively shut down from the factory. This is a security design decision -- interfaces must be explicitly enabled by an administrator before they pass any traffic.
+Unlike switch ports which come up automatically when a cable is connected, router interfaces are administratively shut down from the factory. This is a security design decision: interfaces must be explicitly enabled by an administrator before they pass any traffic.
 
 **Verify R1:**
 
@@ -124,7 +124,7 @@ show interfaces GigabitEthernet0/1
 
 ![R1 show ip interface brief](./images/r1-sh-ip-int-br.png)
 
-![R1 G0/0 interface detail](./images/r1-sh-int-g00.png)
+![R1 G0/0 interface detail](./images/r1-int-g00.png)
 
 ![R1 G0/1 point-to-point interface detail](./images/r1-sh-int-g01.png)
 
@@ -164,7 +164,7 @@ show interfaces GigabitEthernet0/1
 
 ![R2 show ip interface brief](./images/r2-sh-ip-int-br.png)
 
-![R2 G0/0 interface detail](./images/r2-sh-int-g00.png)
+![R2 G0/0 interface detail](./images/r2-int-g00.png)
 
 ![R2 G0/1 point-to-point interface detail](./images/r2-sh-int-g01.png)
 
@@ -285,9 +285,9 @@ It provides exactly 2 usable host addresses which is exactly what two router int
 ## Lessons Learned
 
 - Router interfaces are administratively down by default and must be explicitly enabled with no shutdown
-- Always add interface descriptions before moving on -- they are easy to forget and painful to add retroactively across a large network
+- Always add interface descriptions before moving on as they are easy to forget and painful to add retroactively across a large network
 - /30 is the correct and most efficient subnet for any point-to-point router link
 - Using a larger subnet like /24 on a point-to-point link wastes addresses and is considered poor network design
 - The show ip interface brief command is the fastest way to get a health check on all interfaces at once
-- up/up means fully operational -- anything else requires investigation before moving forward
+- up/up means fully operational with anything else requiring investigation before moving forward
 - Always ping across a point-to-point link immediately after configuration to confirm connectivity before building routing protocols on top of it
