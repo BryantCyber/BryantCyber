@@ -291,8 +291,6 @@ show ip dhcp snooping binding
 
 ![SW1 DAI status and VLAN configuration](./images/sw1-dai.png)
 
-![SW1 DAI trusted and untrusted interface assignments](./images/sw1-dai-ints.png)
-
 **Reading the show ip arp inspection interfaces output:**
 
 | Field | What it means |
