@@ -251,7 +251,7 @@ PC1 retained its R1 assigned address confirming the rogue offer was blocked.
 
 ![SW1 DHCP snooping binding table](./images/sw1-snoop-bind.png)
 
-![SW1 DHCP snooping configuration and trusted ports](./images/sw1-snoop.png)
+![SW1 DHCP snooping configuration and trusted ports](./images/sw1-dai-ints.png)
 
 **Step 5 - Clean up**
 
