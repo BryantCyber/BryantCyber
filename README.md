@@ -86,7 +86,7 @@ To specialize at the intersection of network engineering and cybersecurity, buil
 | 06 | [Router-on-a-Stick](./projects/ccna-mega-lab/lab-06-roas/) | Subinterfaces, dot1Q, inter-VLAN routing | ✅ |
 | 07 | [DHCP Server](./projects/ccna-mega-lab/lab-07-dhcp/) | DHCP pools, exclusions, default-router, DNS | ✅ |
 | 08 | [OSPFv2](./projects/ccna-mega-lab/lab-08-ospf/) | Router ID, passive interfaces, default route advertisement | ✅ |
-| 09 | [SSH & NTP](./projects/ccna-mega-lab/lab-09-ssh-ntp/) | SSH v2, RSA keys, NTP stratum hierarchy | ⬜ |
+| 09 | [SSH & NTP](./projects/ccna-mega-lab/lab-09-ssh-ntp/) | SSH v2, RSA keys, NTP stratum hierarchy | ✅ |
 | 10 | [ACLs, NAT, Syslog & SNMP](./projects/ccna-mega-lab/lab-10-acl-nat/) | Standard/extended ACLs, syslog, SNMPv2c | ⬜ |
  
 ---
