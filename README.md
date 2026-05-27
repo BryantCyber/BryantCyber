@@ -76,18 +76,18 @@ To specialize at the intersection of network engineering and cybersecurity, buil
  
 **Skills demonstrated:** VLANs & trunking · OSPFv2 · Router-on-a-stick · DHCP · NAT/PAT · ACLs · SSH · STP · Port security · DHCP snooping · DAI · NTP · SNMP · Syslog
  
-| # | Mini Lab | Key Topics | Status |
-|---|---|---|---|
-| 01 | [Device Init & Basic Hardening](./projects/ccna-mega-lab/lab-01-device-init/) | Hostname, enable secret, banner, console security | ✅ |
-| 02 | [VLANs, Access Ports & Trunking](./projects/ccna-mega-lab/lab-02-vlans/) | VLAN creation, access ports, 802.1Q trunks | ✅ |
-| 03 | [SVI & Spanning Tree](./projects/ccna-mega-lab/lab-03-svi-stp/) | Management IP, root bridge, PortFast, BPDU Guard | ✅ |
-| 04 | [Port Security & Layer 2 Hardening](./projects/ccna-mega-lab/lab-04-port-security/) | Port security, sticky MAC, DHCP snooping, DAI | ✅ |
-| 05 | [Router Interface Config](./projects/ccna-mega-lab/lab-05-router-interfaces/) | R1 and R2 interfaces, point-to-point link | ✅ |
-| 06 | [Router-on-a-Stick](./projects/ccna-mega-lab/lab-06-roas/) | Subinterfaces, dot1Q, inter-VLAN routing | ✅ |
-| 07 | [DHCP Server](./projects/ccna-mega-lab/lab-07-dhcp/) | DHCP pools, exclusions, default-router, DNS | ✅ |
-| 08 | [OSPFv2](./projects/ccna-mega-lab/lab-08-ospf/) | Router ID, passive interfaces, default route advertisement | ✅ |
-| 09 | [SSH & NTP](./projects/ccna-mega-lab/lab-09-ssh-ntp/) | SSH v2, RSA keys, NTP stratum hierarchy | ✅ |
-| 10 | [ACLs, NAT, Syslog & SNMP](./projects/ccna-mega-lab/lab-10-acl-nat/) | Standard/extended ACLs, syslog, SNMPv2c | ⬜ |
+| # | Mini Lab | Key Topics |
+|---|---|---|
+| 01 | [Device Init & Basic Hardening](./projects/ccna-mega-lab/lab-01-device-init/) | Hostname, enable secret, banner, console security |
+| 02 | [VLANs, Access Ports & Trunking](./projects/ccna-mega-lab/lab-02-vlans/) | VLAN creation, access ports, 802.1Q trunks |
+| 03 | [SVI & Spanning Tree](./projects/ccna-mega-lab/lab-03-svi-stp/) | Management IP, root bridge, PortFast, BPDU Guard |
+| 04 | [Port Security & Layer 2 Hardening](./projects/ccna-mega-lab/lab-04-port-security/) | Port security, sticky MAC, DHCP snooping, DAI |
+| 05 | [Router Interface Config](./projects/ccna-mega-lab/lab-05-router-interfaces/) | R1 and R2 interfaces, point-to-point link |
+| 06 | [Router-on-a-Stick](./projects/ccna-mega-lab/lab-06-roas/) | Subinterfaces, dot1Q, inter-VLAN routing |
+| 07 | [DHCP Server](./projects/ccna-mega-lab/lab-07-dhcp/) | DHCP pools, exclusions, default-router, DNS |
+| 08 | [OSPFv2](./projects/ccna-mega-lab/lab-08-ospf/) | Router ID, passive interfaces, default route advertisement |
+| 09 | [SSH & NTP](./projects/ccna-mega-lab/lab-09-ssh-ntp/) | SSH v2, RSA keys, NTP stratum hierarchy |
+| 10 | [ACLs, NAT, Syslog & SNMP](./projects/ccna-mega-lab/lab-10-acl-nat/) | Standard/extended ACLs, syslog, SNMPv2c |
  
 ---
  
