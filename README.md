@@ -104,7 +104,7 @@ Designed and simulated a secure enterprise network with firewall rules, IDS/IPS 
 | 04 | IDS/IPS | Signature-based vs. anomaly based detection and alert analysis | ⬜ |
 | 05 | Site-to-Site VPN Tunnel | IPsec VPN, IKE phase 1 and phase 2, and tunnel troubleshooting | ⬜ |
 | 06 | Remote Access VPN | Client authentication methods, DNS address pool, and SSL/TLS VPN concepts | ⬜ |
-| 07 | AAA Authentication with RADIUS | Centralized authentication, accounting and audit trail configuration | ⬜ |
+| 07 | RADIUS | AAA authentication, accounting and audit trail configuration | ⬜ |
 | 08 | Hardened Device Baseline | Management and control plane hardening, disabling unused ports and unsecure protocols | ⬜ |
 | 09 | Security Monitoring and Log Analysis | SIEM concepts, centralized syslog, and incident timeline reconstruction| ⬜ |
 | 10 | Vulnerability Assessment | Risk rating and prioritization, port scanning, and remediation planning| ⬜ |
