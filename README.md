@@ -95,6 +95,20 @@ To specialize at the intersection of network engineering and cybersecurity, buil
 Designed and simulated a secure enterprise network with firewall rules, IDS/IPS placement, and VPN tunnel configuration.
  
 **Skills:** Network security · Firewall policy · IDS/IPS · VPN
+
+| # | Mini Lab | Key Topics | Status |
+|---|---|---|---|
+| 01 | Network Design | Defense in depth, security zones, and traffic flow policy  | ⬜ |
+| 02 | Firewall Configuration | Stateful vs. stateless inspection, zone-based firewall policy, and ACL design | ⬜ |
+| 03 | DMZ Architecture | Public vs. private addressing, server segmentation and isolation| ⬜ |
+| 04 | IDS/IPS | Signature-based vs. anomaly based detection and alert analysis | ⬜ |
+| 05 | Site-to-Site VPN Tunnel | IPsec VPN, IKE phase 1 and phase 2, and tunnel troubleshooting | ⬜ |
+| 06 | Remote Access VPN | Client authentication methods, DNS address pool, and SSL/TLS VPN concepts | ⬜ |
+| 07 | AAA Authentication with RADIUS | Centralized authentication, accounting and audit trail configuration | ⬜ |
+| 08 | Hardened Device Baseline | Management and control plane hardening, disabling unused ports and unsecure protocols | ⬜ |
+| 09 | Security Monitoring and Log Analysis | SIEM concepts, centralized syslog, and incident timeline reconstruction| ⬜ |
+| 10 | Vulnerability Assessment | Risk rating and prioritization, port scanning, and remediation planning| ⬜ |
+| 11 | Incident Response Simulation | NIST incident response, post-incident review and lessons learned | ⬜ |
  
 ---
  
