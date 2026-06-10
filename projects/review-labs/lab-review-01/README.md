@@ -13,7 +13,7 @@ Configure foundational security settings on a router and switch from scratch wit
 
 ## Topology
 
-[Lab-01 Topology](./images/review-lab01-top.png)
+![Lab-01 Topology](./images/review-lab01-top.png)
 
 ---
 
