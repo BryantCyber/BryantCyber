@@ -137,7 +137,7 @@ interface Fa0/1
  no shutdown
 ```
 
-**Security significance:** Without BPDU Guard, an attacker could connect a switch to an access port and inject BPDUs in an attempt to manipulate the STP topology — potentially becoming the root bridge and intercepting traffic. BPDU Guard treats any BPDU on an access port as a hostile event and shuts the port down instantly.
+**Security significance:** Without BPDU Guard, an attacker could connect a switch to an access port and inject BPDUs in an attempt to manipulate the STP topology, potentially becoming the root bridge and intercepting traffic. BPDU Guard treats any BPDU on an access port as a hostile event and shuts the port down instantly.
 
 ---
 
@@ -159,7 +159,7 @@ interface range Fa0/2 - 3
 
 Sticky learning dynamically captures the first MAC address seen on the port and permanently saves it to the running configuration, locking the port to that specific device without requiring the administrator to manually type every MAC address in the network.
 
-**Security significance:** Port security directly prevents MAC spoofing and unauthorized device connections at the access layer. Shutdown mode is the strongest option because it does not just drop unauthorized frames — it disables the port entirely, requiring administrator intervention before that port can be used again.
+**Security significance:** Port security directly prevents MAC spoofing and unauthorized device connections at the access layer. Shutdown mode is the strongest option because it does not just drop unauthorized frames, it disables the port entirely, requiring administrator intervention before that port can be used again.
 
 ---
 
@@ -246,4 +246,4 @@ A native VLAN mismatch does not necessarily mean the command was never entered. 
 
 DHCP snooping and DAI are not independent features. DAI is only as good as the binding table DHCP snooping builds. This dependency is one of the most commonly tested relationships in Layer 2 security questions, and configuring them out of order will cause real connectivity problems, not just a configuration warning.
 
-PortFast and BPDU Guard should always be paired together on access ports. PortFast alone removes a safety mechanism without adding a replacement — BPDU Guard is what makes the speed gain from PortFast safe to deploy in a real environment.
+PortFast and BPDU Guard should always be paired together on access ports. PortFast alone removes a safety mechanism without adding a replacement. BPDU Guard is what makes the speed gain from PortFast safe to deploy in a real environment.
