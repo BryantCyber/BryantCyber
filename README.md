@@ -26,7 +26,6 @@ To specialize at the intersection of network engineering and cybersecurity, buil
  
 <div>
 <img src="https://img.shields.io/badge/-Cisco_CCNA-1BA0E2?&style=for-the-badge&logo=Cisco&logoColor=white" />
-<img src="https://img.shields.io/badge/-Red_Hat_RHCSA-EE0000?&style=for-the-badge&logo=RedHat&logoColor=white" />
 </div>
 
  
