@@ -71,8 +71,6 @@ To specialize at the intersection of network engineering and cybersecurity, buil
 ## Projects
  
 ###  [CCNA Mega Lab — Enterprise Network Simulation](./projects/ccna-mega-lab/)
-
-**Topology:** 2 routers, 2 switches, 8 PCs across dual LANs connected via OSPF point-to-point link
  
 **Skills demonstrated:** VLANs & trunking · OSPFv2 · Router-on-a-stick · DHCP · NAT/PAT · ACLs · SSH · STP · Port security · DHCP snooping · DAI · NTP · SNMP · Syslog
  
@@ -88,7 +86,24 @@ To specialize at the intersection of network engineering and cybersecurity, buil
 | 08 | [OSPFv2](./projects/ccna-mega-lab/lab-08-ospf/) | Router ID, passive interfaces, default route advertisement |
 | 09 | [SSH & NTP](./projects/ccna-mega-lab/lab-09-ssh-ntp/) | SSH v2, RSA keys, NTP stratum hierarchy |
 | 10 | [ACLs, NAT, Syslog & SNMP](./projects/ccna-mega-lab/lab-10-acl-nat/) | Standard/extended ACLs, syslog, SNMPv2c |
+
+---
+
+###  [CCNA Labs Cont. - Essential Configurations](./projects/review-labs/)
+Designed and simulated a secure enterprise network to review all configuration concepts covered on the CCNA exam. 
  
+**Skills:** Device initialization · VLANs & trunking · Port Security · DHCP
+
+| # | Mini Lab | Key Topics | Status |
+|---|---|---|---|
+| 01 | [Device Hardening and security](./projects/review-labs/lab-review-01/)| Enable password, login local, Privilege levels | ✅ |
+| 02 | [VLANs, trunking, STP, Layer 2 security](./projects/review-labs/lab-review-02/)| Network segmentation, STP priority, DHCP snooping and DAI | ✅ |
+| 03 | ROAS, DHCP server and inter-VLAN routing | wed| ⬜ |
+| 04 | OSPFv2 | thurs | ⬜ |
+| 05 | Standard and extended ACLs | fri | ⬜ |
+| 06 | NAT, PAT, NTP, & SNMP | sat | ⬜ |
+| 07 | Full integration | sun | ⬜ |
+
 ---
  
 ###  [Network Infrastructure Design Lab](./projects/network-infrastructure-lab/)
