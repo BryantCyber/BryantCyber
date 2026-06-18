@@ -97,7 +97,7 @@ Designed and simulated a secure enterprise network to review all configuration c
 |---|---|---|---|
 | 01 | [Device Hardening and security](./projects/review-labs/lab-review-01/)| Enable password, login local, Privilege levels | ✅ |
 | 02 | [VLANs, trunking, STP, Layer 2 security](./projects/review-labs/lab-review-02/)| Network segmentation, STP priority, DHCP snooping and DAI | ✅ |
-| 03 | ROAS, DHCP server and inter-VLAN routing | wed| ⬜ |
+| 03 | [ROAS, DHCP server and inter-VLAN routing](./projects/review-labs/lab-review-03/)| SVIs, allowed trunk VLANs, DHCP pools & leasing| ✅ |
 | 04 | OSPFv2 | thurs | ⬜ |
 | 05 | Standard and extended ACLs | fri | ⬜ |
 | 06 | NAT, PAT, NTP, & SNMP | sat | ⬜ |
